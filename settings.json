@@ -1,0 +1,68 @@
+{
+	// Globals
+	"git.allowForcePush": false,
+	"git.confirmSync": false,
+	"window.zoomLevel": -1,
+	"workbench.colorTheme": "GitHub Dark",
+	"workbench.editor.untitled.hint": "hidden",
+	"workbench.iconTheme": "material-icon-theme",
+	"search.exclude": {
+		"package-lock.json": true,
+		"pnpm-lock.yaml": true,
+		"yarn.lock": true
+	},
+	"editor.bracketPairColorization.enabled": true,
+	"editor.codeActionsOnSave": [
+		"source.addMissingImports",
+		"source.fixAll.eslint"
+	],
+	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	"editor.detectIndentation": false,
+	"editor.tabSize": 2,
+	// Languages
+	"[c]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	},
+	"[cpp]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	},
+	"[dockerfile]": {
+		"editor.defaultFormatter": "ms-azuretools.vscode-docker"
+	},
+	"[go]": {
+		"editor.defaultFormatter": "golang.go"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[json][jsonc][yaml]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true
+	},
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.python",
+		"editor.formatOnSave": true
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	// Web Dev
+	"reactSnippets.settings.importReactOnTop": false,
+	"tailwindCSS.classAttributes": ["class", "className", "ngClass", "style"],
+	// Prettier
+	"prettier.configPath": ".prettierrc.json",
+	"prettier.ignorePath": ".gitignore",
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	// GitLens
+	"gitlens.advanced.messages": {
+		"suppressGitMissingWarning": true
+	},
+	// Error Lens
+	"errorLens.enabled": true,
+	// Dictionary
+	"cSpell.userWords": ["Kasidis", "Chantharojwong", "ckasidis"]
+}
