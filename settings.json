@@ -53,7 +53,6 @@
 	"reactSnippets.settings.importReactOnTop": false,
 	"tailwindCSS.classAttributes": ["class", "className", "ngClass", "style"],
 	// Prettier
-	"prettier.configPath": ".prettierrc.json",
 	"prettier.ignorePath": ".gitignore",
 	"prettier.singleQuote": true,
 	"prettier.useTabs": true,
@@ -61,8 +60,6 @@
 	"gitlens.advanced.messages": {
 		"suppressGitMissingWarning": true
 	},
-	// Error Lens
-	"errorLens.enabled": true,
 	// Dictionary
 	"cSpell.userWords": ["Kasidis", "Chantharojwong", "ckasidis"]
 }
