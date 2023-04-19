@@ -20,19 +20,19 @@
   "[go]": {
     "editor.defaultFormatter": "golang.go"
   },
-  "[html][css][scss][json][jsonc][yaml]": {
+  "[html][css][scss][json][jsonc][yaml][graphql]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
   "[javascript][javascriptreact][typescript][typescriptreact]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-    "editor.codeActionsOnSave": [
-      "source.addMissingImports",
-      "source.fixAll.eslint"
-    ]
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
   },
   "[python]": {
-    "editor.defaultFormatter": "ms-python.python"
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnType": true
   },
   // Frontend
   "reactSnippets.settings.importReactOnTop": false,
@@ -55,25 +55,5 @@
   "prettier.htmlWhitespaceSensitivity": "css",
   "prettier.vueIndentScriptAndStyle": false,
   "prettier.endOfLine": "lf",
-  "prettier.singleAttributePerLine": false,
-  // Dictionary
-  "cSpell.userWords": [
-    // Names
-    "Chantharojwong",
-    "Kasidis",
-    "ckasidis",
-    // Frontend
-    "classname",
-    "nextjs",
-    "tailwindcss",
-    // Go
-    "goarch",
-    "godotenv",
-    "gofmt",
-    "golangci",
-    // Docker
-    "buildx",
-    // Commitlint
-    "commitlint"
-  ]
+  "prettier.singleAttributePerLine": false
 }
